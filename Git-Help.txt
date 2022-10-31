@@ -1,0 +1,17 @@
+https://stackoverflow.com/questions/51262422/git-man-command-dont-work
+
+The Git for Windows package (aka Git Bash) does not include the Unix man command but you don't need it.
+
+You can get help for any Git command by running git help <command-name> (for example, git help checkout).
+
+Also, you can read the help online at https://git-scm.com/docs.
+
+GitHub Repository (private):
+hareshm/wired-brain-recipes
+https://github.com/hareshm/wired-brain-recipes.git
+
+…or push an existing repository from the command line
+
+
+
+
