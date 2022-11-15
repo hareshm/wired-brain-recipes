@@ -28,6 +28,7 @@ https://github.com/hareshm/wired-brain-recipes.git
 
 $ git add .   (HM: git add is used for both, a new file and for modified files)
 $ git commit -m "first commit"  (HM: $git commit -a does the add & commit - see the picture in https://stackoverflow.com/questions/6143285/git-add-vs-push-vs-commit
+$ git commit -a -m "add new vendor" (HM: this command replaces git add & git commit) 
 $ git remote add origin https://github.com/hareshm/wired-brain-recipes.git
 $ git push -u origin master
 branch 'master' set up to track 'origin/master'.
