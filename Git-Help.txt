@@ -126,5 +126,55 @@ Error: fatal: not a git repository (or any of the parent directories): .git
 Fix: you need to run the git commands in the folder that has the .git folder - C:\Users\hares\Git\desktop\cafe_recipes
 
 $ git diff --staged --no-renames
+$ git push origin master   (HM origin: remote repository ; master: branch name)
+$ git log (HM: command history)
+$ git log -2  (HM: last 2 commands)
+$ git log --oneline  (HM: same as git log, with 1 line per command in history)
+$ git log --stat  (HM: detailed view of each commit, names of files like git status)
+$ git log --patch (HM: The full diff of each file)
+
+The seven rules of a great Git commit message
+https://cbea.ms/git-commit/
+
+$ git rm eggnog_latte  (HM: to remove a file from git)
+$ git rm --cached irish_coffee  ( Git will stop tracking changes to the file, but not delete it from Git)
+$ git mv README.md README  ( Unix mv command, aka renaming the file in Git)
+
+http://git-school.github.io/visualizing-git/
+git commit
+git checkout -b new_branch
+
+HEAD is a pointer to the branch we are on.  We can commit a change to any branch.  HEAD determines where the commit will go.  Head & Master are the same until you branch.  Then Head points to the new branch, and becomes different from Master.
+
+$git checkout master (this causes HEAD to point back to Master)
+$git checkout new_branch  (moves HEAD back to new_branch)
+
+$ git add .  (adds irish_coffee back)
+$ git stash  (stashes the add for retrieval later - like a shelveset.  You can ushelve - $ git stash pop)
+$ git stash list (lists what's stashed)
+$ git stash show  (like git stash show, but more details.
+
+$ touch cold_brew  (same as ksh touch, bash is like ksh, more specifically, the Unix Bourne shell.  Bash is “Bourne Again SHell”)
+$ atom .
+$ git merge new_branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
