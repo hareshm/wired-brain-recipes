@@ -157,6 +157,22 @@ $ git stash show  (like git stash show, but more details.
 $ touch cold_brew  (same as ksh touch, bash is like ksh, more specifically, the Unix Bourne shell.  Bash is “Bourne Again SHell”)
 $ atom .
 $ git merge new_branch
+$ git reset --mixed aa499a9   (resets commits back to staging/index area)
+$ git add .
+$ git commit -m "Group master and new_branch changes"
+
+$ git push origin master
+
+Clone url: github.com, click on Clone button
+
+$ cd ..
+$ git clone https://github.com/hareshm/wired-brain-recipes.git
+Cloning into 'wired-brain-recipes'...
+$ cd wired-brain-recipes
+$ git status
+$ ls
+
+
 
 
 
